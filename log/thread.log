@@ -1,0 +1,5 @@
+17:07:43,631 INFO  MyThread:10 - Thread example Thread-0was started..
+ 17:07:43,643 INFO  MyThread:10 - Thread example Thread-1was started..
+ 17:07:43,649 INFO  MyThread:16 - Thread example Thread-0was finished
+ 17:07:43,668 INFO  MyThread:16 - Thread example Thread-1was finished
+ 
