@@ -16,4 +16,3 @@ public class MyThread extends Thread {
         logger.info("Thread example " + Thread.currentThread().getName() + "was finished");
     }
 }
-
