@@ -10,7 +10,7 @@ public class MyRunnable implements Runnable {
         logger.info("Thread example " + Thread.currentThread().getName() + "was started..");
         while (index.getCount() < MAX_VALUE) {
             int count = index.getCount();
-            System.out.println(Thread.currentThread().getName() + ": " + ++count);
+            logger.info(Thread.currentThread().getName() + ": " + ++count);
             index.setCount(count);
         }
         logger.info("Thread example " + Thread.currentThread().getName() + "was finished");
