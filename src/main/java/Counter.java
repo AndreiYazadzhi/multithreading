@@ -1,5 +1,9 @@
 public class Counter {
-    private int count = 0;
+    private int count;
+
+    public int increment() {
+        return count++;
+    }
 
     public int getCount() {
         return count;
