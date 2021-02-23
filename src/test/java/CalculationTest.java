@@ -8,7 +8,6 @@ import org.junit.jupiter.api.Test;
 
 public class CalculationTest {
     private static List<Integer> million;
-    private static List<Integer> halfMillion;
     private static ForkJoinPool forkJoinPool;
 
     @BeforeAll
